@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./grid_style.css">
+</head>
+<body>
+    <div class = header><h2 id = "head">Welcome to peg solitaire game</h2></div>
+       <div class="container">
+        
+
+        <div class="cell up" draggable="false"><img src="circle.png" alt="" class="content" id="cell_2"></div>
+        <div class="cell up" draggable="false"><img src="circle.png" alt="" class="content" id="cell_3"></div>
+        <div class="cell up" draggable="false"><img src="circle.png" alt="" class="content" id="cell_4"></div>
+        
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_9"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_10"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_11"></div>
+        <div class="cell left" draggable="false"><img src="circle.png" alt="" class="content" id="cell_14"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_15"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_16"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_17"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_18"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_19"></div>
+        <div class="cell right" draggable="false"><img src="circle.png" alt="" class="content" id="cell_20"></div>
+        <div class="cell left" draggable="false"><img src="circle.png" alt="" class="content" id="cell_21"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_22"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_23"></div>
+        <div class="cell" draggable="false"><img src="transpernt.png" alt="" class="content" id="cell_24"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_25"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_26"></div>
+        <div class="cell right" draggable="false"><img src="circle.png" alt="" class="content" id="cell_27"></div>
+        <div class="cell left" draggable="false"><img src="circle.png" alt="" class="content" id="cell_28"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_29"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_30"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_31"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_32"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_33"></div>
+        <div class="cell right" draggable="false"><img src="circle.png" alt="" class="content" id="cell_34"></div>
+        
+        
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_37"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_38"></div>
+        <div class="cell" draggable="false"><img src="circle.png" alt="" class="content" id="cell_39"></div>
+        
+        
+        
+        <div class="cell down" draggable="false"><img src="circle.png" alt="" class="content" id="cell_44"></div>
+        <div class="cell down" draggable="false"><img src="circle.png" alt="" class="content" id="cell_45"></div>
+        <div class="cell down" draggable="false"><img src="circle.png" alt="" class="content" id="cell_46"></div>
+        <div class="corner1"></div>
+        <div class="corner2"></div>
+        <div class="corner3"></div>
+        <div class="corner4"></div>
+        
+        
+    </div>
+    <div class ="btn">
+        <input type="button" id='undo' value="undo">
+    </div>
+    <div class = "explanation">
+        The Peg solitaire game is a board game for one player<br>
+        A valid step, is to jump a peg orthogonally over an adjacent, peg into a hole two positions away and then to remove the jumped peg.<br>
+        In this website, valid pegs are red colored.<br>
+        The game is over when there is no option to  do any valid step.<br>
+        The goal of the game is to leave only one peg in the center of the board.<br>
+        for more info see here :<a href="https://en.wikipedia.org/wiki/Peg_solitaire">Wikipedia</a>
+        <br>
+        <br>
+        I use to play this game in my beloved grandparents' house, while I was a kid.<br>
+        This game is dedicted to thier memory
+        
+         </div>
+    <script src="./grid_game.js"></script>
+</body>
+</html>
