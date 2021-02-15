@@ -9,13 +9,30 @@
      border:3px solid cornflowerblue;
 }
 
+#head{
+/*    background-color: #75cfb8;*/
+    color: #1687a7;
+    font-family: "Optima";
+}
+
 body {
     display: inline-block;
+    text-align: center;
+    background-color: #ece2e1;
+    width:100%;
     
     
 }
 .btn{
-    margin: 10px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    
+}
+
+input{
+    border-color: white;
+    border-radius: 10px;
+    height: 30px;
 }
 .container{
     display: inline-grid;
@@ -30,7 +47,11 @@ body {
     
 }
 
-
+.explanation{
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
 .cell {
   display: inline-grid;
   width:30px;
@@ -51,7 +72,7 @@ body {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: white;
+    background-color: #ece2e1;
 }
 
 
@@ -60,7 +81,7 @@ body {
     grid-row-end: 3;
     grid-column-start: 6;
     grid-column-end: 8;
-    background-color: white;
+    background-color: #ece2e1;
 /*    border-left : 1px solid rgba(0, 0, 0, 0.8);*/
 }
 
@@ -69,7 +90,7 @@ body {
     grid-row-end: 8;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: white;
+    background-color: #ece2e1;
 /*    border-top : 1px solid rgba(0, 0, 0, 0.8);*/
 }
 .corner4{
@@ -77,7 +98,7 @@ body {
     grid-row-end: 8;
     grid-column-start: 6;
     grid-column-end: 8;
-    background-color: white;
+    background-color: #ece2e1;
 /*    border-top : 1px solid rgba(0, 0, 0, 0.8);*/
 /*    border-left : 1px solid rgba(0, 0, 0, 0.8);*/
 }
