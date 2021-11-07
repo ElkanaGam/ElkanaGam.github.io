@@ -49,6 +49,7 @@ input{
 }
 
 .explanation{
+    font-size: 12px;
     text-align: left;
     margin-left: 20px;
     font-family: 'Trebuchet MS', sans-serif;
