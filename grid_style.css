@@ -16,6 +16,7 @@
 }
 
 body {
+    margin: 0px;
     display: inline-block;
     text-align: center;
     background-color: #ece2e1;
